@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+
+    <!-- IP Address EditText -->
+    <EditText
+        android:id="@+id/ipEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter IP Address"
+        android:inputType="text"
+        android:contentDescription="@string/ip_edit_text_description"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Port Number EditText -->
+    <EditText
+        android:id="@+id/portEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Port Number"
+        android:inputType="number"
+        android:contentDescription="@string/port_edit_text_description"
+        android:layout_below="@id/ipEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Connect Button -->
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:layout_below="@id/portEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Heading TextView -->
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connectButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:text="Heading: 0°"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/headingTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headingTextView"
+        android:layout_marginTop="75dp"
+        android:text="Development Preview by AeroQuadra"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/headingTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headingTextView1"
+        android:layout_marginTop="15dp"
+        android:text="v0.2"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/headingTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connectButton"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="165dp"
+        android:text="AeroQuadra Heading Hub"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+</RelativeLayout>

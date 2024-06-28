@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AeroQuadra Heading Hub</string>
+    <string name="ip_edit_text_description">Enter IP Address</string>
+    <string name="port_edit_text_description">Enter Port Number</string>
+</resources>
