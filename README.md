@@ -1,4 +1,3 @@
-
 # AeroQuadra Heading Hub
 
 AeroQuadra Heading Hub is an Android application designed to transform any Android device into an accurate compass that communicates with a Raspberry Pi (or any web server) via WebSocket. This application is ideal for robotic projects or any application requiring precise heading data.
@@ -74,6 +73,7 @@ Ensure the app has the necessary permissions to access location and internet:
    ```
 
 2. **Configure the App**:
+
    - Enter the IP address and port of your server in the app.
    - Press the "Connect" button to establish a connection.
 
@@ -83,7 +83,7 @@ Ensure the app has the necessary permissions to access location and internet:
 
 ### Screenshots
 
-![App Screenshot](path/to/screenshot.png)
+![App Screenshot](screenshots/app-preview.png)
 
 ## License
 
