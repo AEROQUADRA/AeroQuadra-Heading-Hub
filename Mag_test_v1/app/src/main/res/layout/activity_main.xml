@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/headingTextView"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="151dp"
         android:text="Development Preview by AeroQuadra"
         android:textAlignment="center"
         android:textSize="12sp" />
@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/headingTextView1"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="51dp"
         android:text="v0.2"
         android:textAlignment="center"
         android:textSize="12sp" />
@@ -82,9 +82,8 @@
         android:id="@+id/headingTextView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/connectButton"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="165dp"
+        android:layout_below="@+id/headingTextView2"
+        android:layout_marginTop="32dp"
         android:text="AeroQuadra Heading Hub"
         android:textAlignment="center"
         android:textSize="12sp" />

@@ -1,4 +1,4 @@
-package com.example.mag_test_v1;
+package com.example.aeroquadraheadinghub;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
